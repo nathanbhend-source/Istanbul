@@ -17,8 +17,18 @@ body {
 .two-columns {
   grid-template-columns: 1fr 1fr;
 }
+.grid-3-col {
+  grid-template-columns: 1fr 1fr 1fr;
+}
 .bridge-photo {
   max-width: 100%;
+}
+.card {
+  background: white;
+  margin: 30px 0;
+}
+.card-body {
+  padding: 30px 0;
 }
 
 header {
@@ -76,9 +86,12 @@ footer {
   background-size: cover;
 }
 section {
-  max-width: 1200px;
+  max-width: 100%;
   margin: 0 auto;
-  padding: 100px 0;
+  padding: 100px;
+}
+section.secondary {
+  background-color: #f8f8f8;
 }
 main {
   background-color: white;
@@ -100,6 +113,20 @@ main h3 {
   margin: 0;
   color: #2a2347;
 }
+main h4 {
+  font-weight: 700;
+  font-size: 24px;
+  color: #272444;
+  margin: 0;
+  line-height: 1;
+}
+main h5 {
+  font-weight: 700;
+  font-size: 13px;
+  color: #272444;
+  margin: 0;
+  line-height: 1;
+}
 main p {
   font-style: normal;
   font-weight: 400;
@@ -107,6 +134,25 @@ main p {
   line-height: 24px;
   opacity: 0.7;
   color: #2a2347;
+}
+.btn {
+  display: block;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  padding: 16px;
+  background-color: #272444;
+  text-decoration: none;
+}
+.text-center {
+  text-align: center;
+}
+.card-footer {
+  padding: 0 30px 30px;
 }
 footer h3 {
   font-weight: 700;
