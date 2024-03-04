@@ -16,12 +16,13 @@ body {
 }
 .two-columns {
   grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
 }
 .grid-3-col {
   grid-template-columns: 1fr 1fr 1fr;
 }
-.bridge-photo {
-  max-width: 100%;
+#Gallery {
+  margin-top: 25px;
 }
 .card {
   background: white;
@@ -31,6 +32,22 @@ body {
   padding: 30px 0;
 }
 
+.embed {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+.card-header.grid {
+  grid-gap: 0;
+}
+.card-img {
+  width: 100%;
+}
+.bridge-photo {
+  max-width: 100%;
+}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
     url("../images/istanbul-hero.jpg");
@@ -88,7 +105,7 @@ footer {
 section {
   max-width: 100%;
   margin: 0 auto;
-  padding: 100px;
+  padding: 80px;
 }
 section.secondary {
   background-color: #f8f8f8;
@@ -195,5 +212,8 @@ footer a {
   }
   section {
     padding: 30px;
+  }
+  .card-header.img {
+    display: none;
   }
 }
