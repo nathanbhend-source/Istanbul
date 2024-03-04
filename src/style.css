@@ -3,51 +3,6 @@ body {
   background: #504245;
   margin: 0 70px;
 }
-.container {
-  max-width: 1400px;
-  margin: 0 auto;
-}
-.grid {
-  display: grid;
-  grid-gap: 64px;
-}
-.footer-grid {
-  grid-template-columns: 1fr 2fr 2fr;
-}
-.two-columns {
-  grid-template-columns: 1fr 1fr;
-  grid-gap: 50px;
-}
-.grid-3-col {
-  grid-template-columns: 1fr 1fr 1fr;
-}
-#Gallery {
-  margin-top: 25px;
-}
-.card {
-  background: white;
-  margin: 30px 0;
-}
-.card-body {
-  padding: 30px 0;
-}
-
-.embed {
-  width: 100%;
-  aspect-ratio: 16/9;
-}
-.grid-2-columns {
-  grid-template-columns: 1fr 1fr;
-}
-.card-header.grid {
-  grid-gap: 0;
-}
-.card-img {
-  width: 100%;
-}
-.bridge-photo {
-  max-width: 100%;
-}
 header {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
     url("../images/istanbul-hero.jpg");
@@ -91,16 +46,6 @@ header a {
   padding: 16px 32px;
   display: inline-block;
   margin-top: 32px;
-}
-footer {
-  color: white;
-  background-image: linear-gradient(
-      rgba(77, 65, 68, 0.9),
-      rgba(77, 65, 68, 0.9)
-    ),
-    url("../images/footer.jpeg");
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 section {
   max-width: 100%;
@@ -165,12 +110,71 @@ main p {
   background-color: #272444;
   text-decoration: none;
 }
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+.grid {
+  display: grid;
+  grid-gap: 64px;
+}
+.footer-grid {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+.two-columns {
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 50px;
+}
+.grid-3-col {
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-2-columns {
+  grid-template-columns: 1fr 1fr;
+}
+
+.card {
+  background: white;
+  margin: 30px 0;
+}
+.card-body {
+  padding: 30px 0;
+}
+.card-header.grid {
+  grid-gap: 0;
+}
+.card-img {
+  width: 100%;
+}
 .text-center {
   text-align: center;
 }
 .card-footer {
   padding: 0 30px 30px;
 }
+.embed {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+.bridge-photo {
+  max-width: 100%;
+}
+#Gallery {
+  margin-top: 25px;
+}
+
+footer {
+  color: white;
+  background-image: linear-gradient(
+      rgba(77, 65, 68, 0.9),
+      rgba(77, 65, 68, 0.9)
+    ),
+    url("../images/footer.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 footer h3 {
   font-weight: 700;
   font-size: 20px;
